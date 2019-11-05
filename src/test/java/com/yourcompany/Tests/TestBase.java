@@ -15,6 +15,7 @@ import com.saucelabs.junit.SauceOnDemandTestWatcher;
 
 import java.net.URL;
 import java.util.LinkedList;
+import java.util.Date;
 
 import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 
@@ -91,17 +92,116 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
 
-        browsers.add(new String[]{"Windows 10", "14.14393", "MicrosoftEdge", null, null});
-        browsers.add(new String[]{"Windows 10", "49.0", "firefox", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        /*browsers.add(new String[]{"Windows 10", "latest-2", "firefox", null, null});
         browsers.add(new String[]{"Windows 7", "11.0", "internet explorer", null, null});
         browsers.add(new String[]{"OS X 10.11", "10.0", "safari", null, null});
-        browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});
+        browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});*/
         return browsers;
     }
 
     /**
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
-     * {@link #version} and {@link #os} instance variables, and which is configured to run against ondemand.saucelabs.com, using
+     * {@link #version} and {@link #os} instance variables, and which is configured t run against ondemand.saucelabs.com, using
      * the username and access key populated by the {@link #authentication} instance.
      *
      * @throws Exception if an error occurs during the creation of the {@link RemoteWebDriver} instance.
@@ -112,18 +212,20 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
 
         capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
         capabilities.setCapability(CapabilityType.VERSION, version);
-        capabilities.setCapability("deviceName", deviceName);
-        capabilities.setCapability("device-orientation", deviceOrientation);
+        //capabilities.setCapability("deviceName", deviceName);
+        //capabilities.setCapability("device-orientation", deviceOrientation);
+        capabilities.setCapability("build", buildTag);
         capabilities.setCapability(CapabilityType.PLATFORM, os);
+        capabilities.setCapability("extendedDebugging", "false");
 
-        String methodName = name.getMethodName();
-        capabilities.setCapability("name", methodName);
+        /*String methodName = name.getMethodName();
+        capabilities.setCapability("name", methodName);*/
 
         //Getting the build name.
         //Using the Jenkins ENV var. You can use your own. If it is not set test will run without a build id.
-        if (buildTag != null) {
+        /*if (buildTag != null) {
             capabilities.setCapability("build", buildTag);
-        }
+        }*/
         this.driver = new RemoteWebDriver(
                 new URL("https://" + username+ ":" + accesskey + seleniumURI +"/wd/hub"),
                 capabilities);
@@ -147,12 +249,11 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
     @BeforeClass
     public static void setupClass() {
         //get the uri to send the commands to.
-        seleniumURI = "@ondemand.saucelabs.com:443";
+        // seleniumURI = "@ondemand.saucelabs.com:443";
+        seleniumURI = "@ondemand.eu-central-1.saucelabs.com:443";
         //If available add build tag. When running under Jenkins BUILD_TAG is automatically set.
         //You can set this manually on manual runs.
-        buildTag = System.getenv("BUILD_TAG");
-        if (buildTag == null) {
-            buildTag = System.getenv("SAUCE_BUILD_NAME");
-        }
+        Date date= new Date();
+        buildTag = "100_ccy_build_per-core-thread-TRUE_" + date.getTime();
     }
 }
