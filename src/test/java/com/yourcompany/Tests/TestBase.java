@@ -104,26 +104,28 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
         //ten tests above this line
 
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
+
+        //30 above this line
         // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
         // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
         // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
@@ -256,6 +258,6 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         //If available add build tag. When running under Jenkins BUILD_TAG is automatically set.
         //You can set this manually on manual runs.
         Date date= new Date();
-        buildTag = "10_tests_100_ccy_" + date.getTime();
+        buildTag = "30_tests_100_ccy_" + date.getTime();
     }
 }
