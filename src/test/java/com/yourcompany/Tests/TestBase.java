@@ -253,11 +253,11 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
     @BeforeClass
     public static void setupClass() {
         //get the uri to send the commands to.
-        // seleniumURI = "@ondemand.saucelabs.com:443";
-        seleniumURI = "@ondemand.eu-central-1.saucelabs.com:443";
+        seleniumURI = "@ondemand.saucelabs.com:443";
+        // seleniumURI = "@ondemand.eu-central-1.saucelabs.com:443";
         //If available add build tag. When running under Jenkins BUILD_TAG is automatically set.
         //You can set this manually on manual runs.
         Date date= new Date();
-        buildTag = "30_tests_100_ccy_" + date.getTime();
+        buildTag = "50_tests_100_ccy_" + date.getTime();
     }
 }
