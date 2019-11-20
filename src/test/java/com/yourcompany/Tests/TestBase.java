@@ -196,10 +196,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
         // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
         // browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});
-        /*browsers.add(new String[]{"Windows 10", "latest-2", "firefox", null, null});
-        browsers.add(new String[]{"Windows 7", "11.0", "internet explorer", null, null});
-        browsers.add(new String[]{"OS X 10.11", "10.0", "safari", null, null});
-        browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});*/
+
         return browsers;
     }
 
@@ -253,11 +250,11 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
     @BeforeClass
     public static void setupClass() {
         //get the uri to send the commands to.
-        seleniumURI = "@ondemand.saucelabs.com:443";
+        seleniumURI = "@ondemand.us-west-1.saucelabs.com:443";
         // seleniumURI = "@ondemand.eu-central-1.saucelabs.com:443";
         //If available add build tag. When running under Jenkins BUILD_TAG is automatically set.
         //You can set this manually on manual runs.
         Date date= new Date();
-        buildTag = "50_tests_100_ccy_" + date.getTime();
+        buildTag = "30_tests_100_ccy_" + date.getTime();
     }
 }
